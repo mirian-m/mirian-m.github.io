@@ -51,6 +51,10 @@ table {
 	border-spacing: 0;
 }
 
+img.rounded-corners {
+	border-radius: 30px;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -2636,6 +2640,7 @@ input, select, textarea {
 			display: block;
 			margin: 4rem 0;
 			width: 100%;
+			border-radius: 10px;
 		}
 
 			.image.main:first-child {
